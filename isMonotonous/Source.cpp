@@ -56,7 +56,7 @@ bool isMonotonous(vector<int> sequence) {
 		}
 		else
 		{
-			// secondCounter increases if the current element is not bigger than the previous.
+			// secondCounter increases if the current element is bigger than the previous.
 			// This means that the array is not strictly decreasing.
 			secondCounter++;
 		}
